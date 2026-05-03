@@ -15,7 +15,6 @@ const AdminDashboard = () => {
   { key: "dashboard", label: "Dashboard", path: "/adminDashboard" },
   { key: "admissions", label: "Manage Admissions", path: "/adminDashboard/admission" },
   { key: "students", label: "Manage Students", path: "/adminDashboard/students" },
-  { key: "enrollments", label: "Manage Enrollment", path: "/adminDashboard/enrollments" },
   { key: "teachers", label: "Manage Teachers", path: "/adminDashboard/teachers" },
   { key: "result", label: "Manage Result", path: "/adminDashboard/result" },
   { key: "settings", label: "Settings", path: "/adminDashboard/settings" },

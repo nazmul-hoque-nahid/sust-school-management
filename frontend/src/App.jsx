@@ -60,7 +60,6 @@ import AdminAdmission  from "./pages/AdminAdmission";
 import AdminSettings from "./pages/AdminSettings";
 import AdminStudents from "./pages/AdminStudents";
 import AdminTeachers from "./pages/AdminTeachers";
-import AdminEnrollment from "./pages/AdminEnrollment";
 import AdminResult from "./pages/AdminResult";
 function App() {
   return (
@@ -138,7 +137,6 @@ function App() {
     <Route index element={<h1>Dashboard</h1>} />
    <Route path="admission" element={<AdminAdmission />} />
    <Route path="students" element={<AdminStudents />} />
-   <Route path="enrollments" element={<AdminEnrollment />} />
    <Route path="teachers" element={<AdminTeachers />} />
    <Route path="result" element={<AdminResult/>}/>
     <Route path="settings" element={<AdminSettings />} />

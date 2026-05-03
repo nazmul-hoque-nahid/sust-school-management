@@ -8,22 +8,22 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDateTime;
-@Setter
-@Getter
-@AllArgsConstructor
-@NoArgsConstructor
 @Entity
-@Table(name="teachers")
+@Table(name = "teachers")
+@Getter
+@Setter
 public class Teacher {
+
     @Id
+    @GeneratedValue(strategy = GenerationType.UUID) // ✅ IMPORTANT
     private String teacherId;
+
     @OneToOne
-    @JoinColumn(name = "user_id", unique = true, nullable = false)
+    @JoinColumn(name = "user_id")
     private User user;
-    @Column(nullable = false)
+
     private String fullName;
     private String phone;
     private String email;
     private String qualification;
-    private LocalDateTime createdAt = LocalDateTime.now();
 }
