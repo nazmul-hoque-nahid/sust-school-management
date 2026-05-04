@@ -39,6 +39,9 @@ import Prospectus from "./pages/Prospectus";
 import AdmissionResult from "./pages/AdmissionResult";
 import WaitingList from "./pages/WaitingList";
 import FeesChart from "./pages/FeesChart";
+import ExaminationFee from "./pages/ExaminationFee";
+import MonthlySchoolFee from "./pages/MonthlySchoolFee";
+import TranscriptFee from "./pages/TranscriptFee";
 
 import Epayment from "./pages/Epayment";
 import NoticeBoard from "./pages/NoticeBoard";
@@ -109,6 +112,9 @@ function App() {
           <Route path="/feeschart" element={<FeesChart />} />
 
           <Route path="/epayment" element={<Epayment />} />
+          <Route path="/examination-fee" element={<ExaminationFee />} />
+          <Route path="/monthly-school-fee" element={<MonthlySchoolFee />} />
+          <Route path="/transcript-fee" element={<TranscriptFee />} />
           <Route path="/notice-board" element={<NoticeBoard />} />
 
           {/* Campus Life Subpages */}
