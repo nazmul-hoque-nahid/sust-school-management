@@ -87,13 +87,13 @@ const Home = () => {
               • Admission open for 2026-2027 • Parent-Teacher Meeting on May 5
 
             </motion.div>
+
           </div>
         </div>
       </div>
 
      
 
-      {/* Image Carousel */}
       {/* Image Carousel */}
       <div className='relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden bg-gray-300'>
 
